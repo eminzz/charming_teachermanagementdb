@@ -167,5 +167,5 @@ add commit localdaki gite aiddir, push edende gedir servere.serverde branch quru
 deyirik.serverde de test branchi acdig ve pull edib locala cekdik. terminalda git checkout origin/test yazanda birbasa
 serverdeki brancha kecid edir ve burda etdiyin deyisikleri local test gormur. git push origin HEAD:test
 bele bir sey verir headin dalina branch adini biz yazirig.ve bize teklif edirki 1 commit dalasan serverden pull edib
-locala cek onu. git branch -d test -localdan silir, git push origin --delete test - ise serverden silir.
+locala cek onu. git branch -D test -localdan silir, git push origin --delete test - ise serverden silir.
  */
