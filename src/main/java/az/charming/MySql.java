@@ -163,5 +163,9 @@ olsa sagda maven vurub dongu -kruq isaresine vurursan gelir),git checkout master
 push edirik cunki bezen problemler aca bilir, meselen muellimde oldu brancha kecende dedi idea da workspace.xml var
 onu push et". usercrud branchinda System.out.println("usercrud"); app-main de bele kod yazdig masterden ferqlendirmek
 ucun ve kecid edende goreceyik ki masterde bu kod yoxdur, tebii ki etdiyin elaveleri gerek git add, commit falan edesen.
-add commit localdaki gite aiddir, push edende gedir servere.
+add commit localdaki gite aiddir, push edende gedir servere.serverde branch qurub locala cekende git pull(git fetch)
+deyirik.serverde de test branchi acdig ve pull edib locala cekdik. terminalda git checkout origin/test yazanda birbasa
+serverdeki brancha kecid edir ve burda etdiyin deyisikleri local test gormur. git push origin HEAD:test
+bele bir sey verir headin dalina branch adini biz yazirig.ve bize teklif edirki 1 commit dalasan serverden pull edib
+locala cek onu. git branch -d test -localdan silir, git push origin --delete test - ise serverden silir.
  */
