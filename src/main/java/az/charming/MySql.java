@@ -157,5 +157,11 @@ faylinda /target
          /target/** yazirig yeni targeti ve icindekileri push etme.
 git checkout - b usercrud
 yazdig yeni usercrud adli branch ac. git push sonra da git push --set-upstream origin usercrud
-yazanda localda acdigin branch gedir oturur githuba,
+yazanda localda acdigin branch gedir oturur githuba,git branch yazanda
+localinda movcud olan branchlari gosterir.Branchlar arasinda kecid edende kodlar deyisir.(Eger iml file itse , problem
+olsa sagda maven vurub dongu -kruq isaresine vurursan gelir),git checkout master yazanda kecir mastere, "idea faylini
+push edirik cunki bezen problemler aca bilir, meselen muellimde oldu brancha kecende dedi idea da workspace.xml var
+onu push et". usercrud branchinda System.out.println("usercrud"); app-main de bele kod yazdig masterden ferqlendirmek
+ucun ve kecid edende goreceyik ki masterde bu kod yoxdur, tebii ki etdiyin elaveleri gerek git add, commit falan edesen.
+add commit localdaki gite aiddir, push edende gedir servere.
  */
